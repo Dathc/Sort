@@ -1,7 +1,7 @@
 arr = [4,2,8,7,1,3]
 
 const q =(arr) => {
-    if(arr.length < 2) {
+    if(arr.length < 2) {//ловим два случая когда массив пустой и когда в нем одна цифра
         return arr
     }
 
